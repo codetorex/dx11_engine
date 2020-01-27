@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2db95e1f-10c2-4f33-856e-7ba54e22c377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{6ef099c2-63c6-492e-a7b9-c41ce734f3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders">
+      <UniqueIdentifier>{ffa57214-c0a7-4710-8dea-a58a88a15b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\NormalShader">
+      <UniqueIdentifier>{6d1f2a38-cc95-4a2e-b910-9ee7db8ba4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\ParticleShader">
+      <UniqueIdentifier>{31731196-24cd-45e4-9795-cec4cbb80240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\TexturedShader">
+      <UniqueIdentifier>{d2c34013-aee4-440c-accd-7b8ab5441b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\WaterShader">
+      <UniqueIdentifier>{44491f58-297c-4bb6-9ff8-22f1ef52c70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\GlowShader">
+      <UniqueIdentifier>{19ace0e5-3a29-4e9d-a208-1da7d6136ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\CubeMapShader">
+      <UniqueIdentifier>{b5e97328-5d7e-4868-b15f-fd6cfdc9d4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders\EnviornmentShader">
+      <UniqueIdentifier>{6575a0e7-5d71-4886-8054-af22d792ed04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\OBJFormat">
+      <UniqueIdentifier>{ecd2989f-5744-453f-a6b4-52a9cb3cdeb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexFormats.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMap.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEffect.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LightPointer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpaceQuad.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Carriage.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMap.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentMap.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapShader.h">
+      <Filter>Engine\Shaders\CubeMapShader</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowShader.h">
+      <Filter>Engine\Shaders\GlowShader</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShader.h">
+      <Filter>Engine\Shaders\WaterShader</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedShader.h">
+      <Filter>Engine\Shaders\TexturedShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShader.h">
+      <Filter>Engine\Shaders\ParticleShader</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalShader.h">
+      <Filter>Engine\Shaders\NormalShader</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentShader.h">
+      <Filter>Engine\Shaders\EnviornmentShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJEntity.h">
+      <Filter>Engine\OBJFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJReader.h">
+      <Filter>Engine\OBJFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJRenderer.h">
+      <Filter>Engine\OBJFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJVertexBufferBuilder.h">
+      <Filter>Engine\OBJFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Castle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpaceQuad.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMapShader.cpp">
+      <Filter>Engine\Shaders\CubeMapShader</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentShader.cpp">
+      <Filter>Engine\Shaders\EnviornmentShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GlowShader.cpp">
+      <Filter>Engine\Shaders\GlowShader</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalShader.cpp">
+      <Filter>Engine\Shaders\NormalShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShader.cpp">
+      <Filter>Engine\Shaders\ParticleShader</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedShader.cpp">
+      <Filter>Engine\Shaders\TexturedShader</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShader.cpp">
+      <Filter>Engine\Shaders\WaterShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJEntity.cpp">
+      <Filter>Engine\OBJFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJReader.cpp">
+      <Filter>Engine\OBJFormat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="CubeMapVertexShader.hlsl">
+      <Filter>Engine\Shaders\CubeMapShader</Filter>
+    </FxCompile>
+    <FxCompile Include="CubeMapPixelShader.hlsl">
+      <Filter>Engine\Shaders\CubeMapShader</Filter>
+    </FxCompile>
+    <FxCompile Include="EnvironmentPixelShader.hlsl">
+      <Filter>Engine\Shaders\EnviornmentShader</Filter>
+    </FxCompile>
+    <FxCompile Include="EnvironmentVertexShader.hlsl">
+      <Filter>Engine\Shaders\EnviornmentShader</Filter>
+    </FxCompile>
+    <FxCompile Include="GlowPixelShaderH.hlsl">
+      <Filter>Engine\Shaders\GlowShader</Filter>
+    </FxCompile>
+    <FxCompile Include="GlowPixelShaderV.hlsl">
+      <Filter>Engine\Shaders\GlowShader</Filter>
+    </FxCompile>
+    <FxCompile Include="GlowVertexShader.hlsl">
+      <Filter>Engine\Shaders\GlowShader</Filter>
+    </FxCompile>
+    <FxCompile Include="NormalPixelShader.hlsl">
+      <Filter>Engine\Shaders\NormalShader</Filter>
+    </FxCompile>
+    <FxCompile Include="NormalVertexShader.hlsl">
+      <Filter>Engine\Shaders\NormalShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleGeometryShader.hlsl">
+      <Filter>Engine\Shaders\ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePixelShader.hlsl">
+      <Filter>Engine\Shaders\ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleVertexShader.hlsl">
+      <Filter>Engine\Shaders\ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturedPixelShader.hlsl">
+      <Filter>Engine\Shaders\TexturedShader</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturedVertexShader.hlsl">
+      <Filter>Engine\Shaders\TexturedShader</Filter>
+    </FxCompile>
+    <FxCompile Include="WaterVertexShader.hlsl">
+      <Filter>Engine\Shaders\WaterShader</Filter>
+    </FxCompile>
+    <FxCompile Include="WaterPixelShader.hlsl">
+      <Filter>Engine\Shaders\WaterShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
